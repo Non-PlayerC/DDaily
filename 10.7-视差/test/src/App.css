@@ -1,0 +1,6 @@
+/* 设置视差滚动元素 */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
