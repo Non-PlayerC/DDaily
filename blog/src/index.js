@@ -4,11 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
-  BrowserRouter,
   // eslint-disable-next-line no-unused-vars
-  Routes,
-  // eslint-disable-next-line no-unused-vars
-  Route,
+  BrowserRouter, Routes, Route
 } from "react-router-dom"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
