@@ -4,21 +4,22 @@ import { useState } from 'react';
 
 function App() {
   const [color, setColor] = useState("red")
+  const [year, setYear] = useState("2021")
 
   return (
     <>
-      <h1>My favorite color is {color}!</h1>
+      <h1>My favorite color is {color}! {year}</h1>
       <button
         type="button"
         onClick={() => setColor("blue")}
       >Blue</button>
       <button
         type="button"
-        onClick={() => setColor("red")}
+        onClick={() => [setColor("red"), setYear("2022")]}
       >Red</button>
       <button
         type="button"
-        onClick={() => setColor("pink")}
+        onClick={() => [setColor("pink"), setYear("2023")]}
       >Pink</button>
       <button
         type="button"
